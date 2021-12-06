@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    background-color: blue;
+    padding: 40px 50px;
+}
+.header-logo{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.menu-item{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.hero{
+    background: url("./images/zdanie.jpg") fixed no-repeat center/cover;
+    padding: 50px 40px;
+    text-align: center;
+    color: white;
+}
+.hero-title{
+    margin-bottom: 20px;
+}
+.hero-subtitle{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.event-item{
+    padding: 30px;
+    background-color: red;
+}
+.event-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.blue{
+    background-color: #3939ec;
+}
+.yellow{
+    background-color: #e8e850;
+}
+.red{
+    background-color: #f33e3e;
+}
+.ocean{
+    background-color: dodgerblue;
+}
+.carts{
+    background-color: cornflowerblue;
+    padding: 50px 40px;
+}
+.carts-event{
+    background-color: dodgerblue;
+    padding: 30px 20px;
+    margin: 20px 0;
+}
+.carts-img{
+    width: 200px;
+}
+.carts-day{
+    text-align: right;
+}
+.carts-title{
+    margin-bottom: 10px;
+}
+.news{
+    background-color: lightgrey;
+    padding: 50px 40px;
+}
+.news-event{
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.news-img {
+    width: 200px;
+}
+.news-subtitle{
+    color: red;
+    margin: 10px 0;
+}
+.footer{
+    background-color: #3939ec;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
